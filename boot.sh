@@ -17,12 +17,12 @@ sudo dnf install -y git >/dev/null
 
 echo "Cloning Omakub..."
 rm -rf ~/.local/share/omakub
-git clone https://github.com/brsc2909/omakub-fedora.git ~/.local/share/omakub >/dev/null
-if [[ $OMAKUB_REF != "master" ]]; then
-	cd ~/.local/share/omakub
-	git fetch origin "${OMAKUB_REF:-stable}" && git checkout "${OMAKUB_REF:-stable}"
-	cd -
-fi
+git clone https://github.com/adamwhiles/omakub-fedora-arm.git ~/.local/share/omakub >/dev/null
+# if [[ $OMAKUB_REF != "master" ]]; then
+# 	cd ~/.local/share/omakub
+# 	git fetch origin "${OMAKUB_REF:-master}" && git checkout "${OMAKUB_REF:-master}"
+# 	cd -
+# fi
 
 echo "Installation starting..."
 source ~/.local/share/omakub/install.sh
