@@ -1,4 +1,4 @@
-sudo dnf -y alacritty
+sudo dnf install -y alacritty
 mkdir -p ~/.config/alacritty
 
 
