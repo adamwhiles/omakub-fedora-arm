@@ -7,6 +7,15 @@ Turn a fresh Fedora installation into a fully-configured, beautiful, and modern 
 
 Watch the introduction video and read more at [omakub.org](https://omakub.org).
 
+## Changes
+This build has been adapted to work with Fedora 42 on ARM processors. Specifically tested on a MacBook Air M3 running VMware Fusion and Fedora 42 ARM edition
+
+## The following apps were removed due to incompatibility
+- Spotify
+- Cursor (install needs work)
+- Signal
+- Chrome (Chromium is installed)
+
 # Install
 ```bash
 sudo dnf update -y
