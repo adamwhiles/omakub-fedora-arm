@@ -1,7 +1,7 @@
 # Omakub
 
-This is a fork of the [Omakub](https://github.com/basecamp/omakub) project, but for Fedora.
-I've switched out alacritty for ghostty as the terminal emulator. and added cursor to the install.
+This is a fork of the [Omakub](https://github.com/basecamp/omakub) project, but for Fedora with ARM based processors.
+
 
 Turn a fresh Fedora installation into a fully-configured, beautiful, and modern web development system by running a single command. That's the one-line pitch for Omakub. No need to write bespoke configs for every essential tool just to get started or to be up on all the latest command-line tools. Omakub is an opinionated take on what Linux can be at its best.
 
